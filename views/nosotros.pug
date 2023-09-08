@@ -1,2 +1,30 @@
-h1 Agencia de Viajes
-p Nosotros
+extends ./layout/index
+
+block contenido
+    main.container.mt-5
+       .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu felis quam. Suspendisse ultricies, arcu aliquam iaculis rutrum, mauris justo consectetur est, a tempus nisi libero eu dui. Praesent in magna dictum, molestie elit vel, mattis erat. Integer sit amet magna id odio facilisis tincidunt. Nunc ipsum magna, pellentesque sit amet lacinia nec, suscipit consequat lacus. Ut nec volutpat turpis. Nunc erat ligula, vulputate id nisl ac, finibus sagittis felis.
+
+                p Nunc ex sem, blandit id scelerisque sed, sagittis nec ipsum. In et mattis nisi, vel porta erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean erat augue, vestibulum at metus eget, elementum convallis eros. Sed interdum arcu eget consectetur rutrum. Nam faucibus lobortis nunc quis hendrerit. Donec placerat faucibus risus, sit amet consectetur nisi porta venenatis. Aenean vel vehicula quam, nec fringilla libero. Morbi faucibus, felis varius pellentesque semper, turpis tortor molestie lectus, id mattis risus augue eget nisi. Curabitur condimentum ac turpis eleifend cursus. Vivamus laoreet nisi ac justo dapibus, id vehicula sem porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent blandit finibus eros, sed semper ante fringilla at. Praesent finibus id risus sed rutrum.
+
+    .listado-iconos
+        .container.mt-5.py5.text-cemter
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu felis quam. Suspendisse ultricies, arcu aliquam iaculis rutrum, mauris justo consectetur est, a tempus nisi libero eu dui. Praesent in magna dictum, molestie elit vel, mattis erat. Integer sit amet magna id odio facilisis tincidunt. Nunc ipsum magna, pellentesque sit amet lacinia nec, suscipit consequat lacus. Ut nec volutpat turpis. Nunc erat ligula, vulputate id nisl ac, finibus sagittis felis.
+                
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu felis quam. Suspendisse ultricies, arcu aliquam iaculis rutrum, mauris justo consectetur est, a tempus nisi libero eu dui. Praesent in magna dictum, molestie elit vel, mattis erat. Integer sit amet magna id odio facilisis tincidunt. Nunc ipsum magna, pellentesque sit amet lacinia nec, suscipit consequat lacus. Ut nec volutpat turpis. Nunc erat ligula, vulputate id nisl ac, finibus sagittis felis.
+
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores Precios
+                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu felis quam. Suspendisse ultricies, arcu aliquam iaculis rutrum, mauris justo consectetur est, a tempus nisi libero eu dui. Praesent in magna dictum, molestie elit vel, mattis erat. Integer sit amet magna id odio facilisis tincidunt. Nunc ipsum magna, pellentesque sit amet lacinia nec, suscipit consequat lacus. Ut nec volutpat turpis. Nunc erat ligula, vulputate id nisl ac, finibus sagittis felis.
